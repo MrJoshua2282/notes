@@ -3,15 +3,16 @@ import { Route, Redirect } from 'react-router-dom';
 
 import './App.css';
 import Nav from './Nav/Nav';
+import CssIq from './Pages/CssIq';
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <Route path='/html/iq' exact component={} />
-      <Route path='/html/notes' exact component={} />
-      <Route path='/css/iq' exact component={} />
-      <Route path='/css/notes' exact component={} />
+      {/* <Route path='/html/iq' exact component={} /> */}
+      {/* <Route path='/html/notes' exact component={} /> */}
+      <Route path='/css/iq' exact component={CssIq} />
+      {/* <Route path='/css/notes' exact component={} />
       <Route path='/sass/iq' exact component={} />
       <Route path='/sass/notes' exact component={} />
       <Route path='/js/iq' exact component={} />
@@ -37,7 +38,7 @@ function App() {
       <Route path='/github/iq' exact component={} />
       <Route path='/github/notes' exact component={} />
       <Route path='/misc/iq' exact component={} />
-      <Route path='/misc/notes' exact component={} />
+      <Route path='/misc/notes' exact component={} /> */}
       <Redirect to='/html/iq' />
     </div>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Nav.css';
 
@@ -15,7 +16,7 @@ export default function Nav() {
 				</section>
 				<section>
 					<div className="table-div">
-						<span className='relation left'>iq</span>
+						<Link to="/css/iq"><span className='relation left'>iq</span></Link>
 						<span className='relation right'>notes</span>
 					</div>
 					<td>css</td>
