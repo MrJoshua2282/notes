@@ -34,6 +34,7 @@ table section {
     opacity: 0;
     transition: all .3s;
     color: rgb(92, 91, 91);
+    text-decoration: none;
 }
 
 .left {

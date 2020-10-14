@@ -16,8 +16,8 @@ export default function Nav() {
 				</section>
 				<section>
 					<div className="table-div">
-						<Link to="/css/iq"><span className='relation left'>iq</span></Link>
-						<span className='relation right'>notes</span>
+						<Link to="/css/iq" className='relation left'>iq</Link>
+						<Link to="/css/notes" className='relation right'>notes</Link>
 					</div>
 					<td>css</td>
 				</section>
